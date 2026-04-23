@@ -14,14 +14,14 @@ const HeroSection = ({ onSimulateClick }: HeroSectionProps) => {
   ];
 
   return (
-    <section className="py-16 md:py-24 overflow-hidden" style={{ backgroundColor: '#e7f3ff' }}>
+    <section className="py-16 md:py-24 overflow-hidden" style={{ backgroundColor: '#f0f0f0' }}>
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Imagem - Esquerda */}
           <div className="relative order-1" style={{ animation: 'slideInLeft 1s ease-out forwards' }}>
             <img
               src={heroImage}
-              alt="Casa, carro e retro escavadeira - Cota Investimentos"
+              alt="Casa, carro e retro escavadeira - Líder Imperial"
               className="w-full h-auto max-w-lg mx-auto drop-shadow-2xl"
             />
           </div>

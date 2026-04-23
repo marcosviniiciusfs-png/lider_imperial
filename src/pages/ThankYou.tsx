@@ -23,7 +23,7 @@ const ThankYou = () => {
       <main className="flex-1 flex items-center justify-center py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-lg mx-auto text-center">
-            <div className="bg-card rounded-2xl shadow-[0_4px_30px_rgba(12,76,199,0.12)] p-10">
+            <div className="bg-card rounded-2xl shadow-[var(--shadow-card)] p-10">
               <div className="flex justify-center mb-6">
                 <CheckCircle className="w-20 h-20 text-primary" />
               </div>

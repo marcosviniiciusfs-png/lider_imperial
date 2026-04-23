@@ -1,15 +1,13 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight, Trophy } from "lucide-react";
 
-import client1 from "@/assets/clients/client-1.jpeg";
-import client2 from "@/assets/clients/client-2.jpeg";
-import client3 from "@/assets/clients/client-3.jpeg";
-import client4 from "@/assets/clients/client-4.jpeg";
-import client5 from "@/assets/clients/client-5.jpeg";
-import client6 from "@/assets/clients/client-6.jpeg";
-import client7 from "@/assets/clients/client-7.jpeg";
-import client8 from "@/assets/clients/client-8.jpeg";
-import client9 from "@/assets/clients/client-9.jpeg";
+import client1 from "@/assets/clients/1.png";
+import client2 from "@/assets/clients/2.png";
+import client3 from "@/assets/clients/3.png";
+import client4 from "@/assets/clients/4.png";
+import client5 from "@/assets/clients/5.png";
+import client6 from "@/assets/clients/6.png";
+import client7 from "@/assets/clients/7.png";
 
 const clientImages = [
   { src: client1, alt: "Cliente contemplado 1" },
@@ -19,8 +17,6 @@ const clientImages = [
   { src: client5, alt: "Cliente contemplado 5" },
   { src: client6, alt: "Cliente contemplado 6" },
   { src: client7, alt: "Cliente contemplado 7" },
-  { src: client8, alt: "Cliente contemplado 8" },
-  { src: client9, alt: "Cliente contemplado 9" },
 ];
 
 const ITEMS_PER_VIEW = 3;

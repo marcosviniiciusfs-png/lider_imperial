@@ -1,5 +1,5 @@
-import { Phone, MapPin, Mail } from "lucide-react";
-import logoRaz from "@/assets/logo-cota.png";
+import { Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo-lider-imperial.png";
 
 const Footer = () => {
   return (
@@ -8,14 +8,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo e Social */}
           <div>
-            <img src={logoRaz} alt="Cota Investimentos" className="h-12 w-auto mb-4" />
-            <h3 className="text-xl font-bold mb-4">Social</h3>
+            <img src={logo} alt="Líder Imperial" className="h-12 w-auto mb-4" />
+            <h3 className="text-xl font-bold mb-4 mt-4">Social</h3>
             <div className="flex gap-4">
               <a
-                href="https://www.instagram.com/grupocotaconsorcio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors"
+                href="#"
+                className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-accent/30 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -23,22 +21,13 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=61552014638650"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors"
+                href="#"
+                className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-accent/30 transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                 </svg>
-              </a>
-              <a
-                href="mailto:supervisaocota@gmail.com"
-                className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors"
-                aria-label="E-mail"
-              >
-                <Mail className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -48,26 +37,15 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Fale conosco</h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
+                <Phone className="w-5 h-5 mt-1 flex-shrink-0 text-accent" />
                 <div>
                   <a
-                    href="https://wa.me/559884118188"
+                    href="https://wa.me/557591960545"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium hover:underline"
                   >
-                    WhatsApp: (98) 8411-8188
-                  </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
-                <div>
-                  <a
-                    href="mailto:supervisaocota@gmail.com"
-                    className="font-medium hover:underline"
-                  >
-                    supervisaocota@gmail.com
+                    WhatsApp: (75) 9196-0545
                   </a>
                 </div>
               </div>
@@ -79,11 +57,11 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Nosso endereço</h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 mt-1 flex-shrink-0 text-accent" />
                 <div>
-                  <p>Rua Nova, 135 Centro</p>
-                  <p>CEP 65300-067</p>
-                  <p>Santa Inês - Maranhão</p>
+                  <p>Praça Flávio Silvany, nº 130</p>
+                  <p>Sala 02, 2º andar - Centro</p>
+                  <p>Itaberaba - BA</p>
                 </div>
               </div>
             </div>
@@ -92,7 +70,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 pt-6 text-center">
           <p className="text-white/90 text-sm">
-            Copyright 2025 - Todos os direitos reservados por Cota Investimentos
+            Copyright 2025 - Todos os direitos reservados por Líder Imperial
           </p>
         </div>
       </div>

@@ -344,7 +344,7 @@ const Simulator = () => {
             </h2>
           </div>
 
-          <div className="bg-card rounded-2xl shadow-[0_4px_30px_rgba(12,76,199,0.12)] p-8 md:p-10">
+          <div className="bg-card rounded-2xl shadow-[var(--shadow-card)] p-8 md:p-10">
             {/* Barra de Progresso */}
             <div className="mb-8">
               <div className="flex justify-between items-center mb-2">
